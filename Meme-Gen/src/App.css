@@ -1,5 +1,7 @@
 #root {
-  max-width: 1280px;
+  background-color: rgb(23, 23, 23);
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -41,9 +43,93 @@
   color: #888;
 }
 .navbar{
-  background-color: bisque;
+  background-color: rgb(20, 14, 35);
   position: fixed;
   top: 0;
   left: 0;
   width: calc(100%);
+  height:30px;
+}
+
+.home-page{
+  width: 100%;
+  height: 1250px;
+}
+
+.home-title{
+  color: greenyellow;
+  margin-top: 220px;
+}
+
+.home-description{
+  color: rgb(192, 192, 192);
+  margin-top: 30px;
+}
+
+
+.homepage-link{
+  color: rgb(117, 189, 8);
+}
+
+.get-home-button{
+  color: rgb(117, 189, 8);
+  border: 1px solid rgb(101, 108, 246);
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.99);
+}
+
+.get-link{
+  color:  rgb(117, 189, 8);
+}
+
+.create-link{
+  color:  rgb(117, 189, 8);
+}
+
+.favourites-link{
+  color:  rgb(117, 189, 8);
+}
+
+.meme-blank{
+  display: grid;
+  max-width: 85%;
+  padding-left: 7%;
+  grid-template-columns: repeat(4, minmax(auto, 12fr));
+  /* grid-template-rows: repeat(4, minmax(auto, 12fr));*/
+  gap: 40px;
+  row-gap: 2px;
+}
+
+.get-card{
+  background-color: rgb(24, 23, 29); /* Background color for the card */
+  margin-top: 20%;
+  border-radius: 8px; /* Rounded corners for the card */
+  padding: 11px; /* Padding inside the card */
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.99);
+  height: 80%;
+}
+
+.meme-blank-img{
+  max-width: 100%;
+  min-height: 175px;
+  max-height: 175px;
+  margin-top: 1px;
+  margin-bottom: 19px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.99);
+  border-radius: 8px;
+  height: auto;
+  object-fit: cover;
+}
+
+.get-button{
+  color: rgb(117, 189, 8);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(101, 108, 246);
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.99);
 }
